@@ -74,7 +74,7 @@ if (isset($_SESSION['LOG_USER'])) {
             <header class="main-header">
                 <a href="./" class="logo">
                     <span class="logo-mini"><b>FCV2</b></span>
-                    <span class="logo-lg"><b>Forward</b> Chaining</span>
+                    <span class="logo-lg"><b>Covid</b>-19</span>
                 </a>
                 <!-- Header Navbar -->
                 <nav class="navbar navbar-static-top" role="navigation">

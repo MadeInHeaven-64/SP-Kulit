@@ -25,7 +25,7 @@ while($r=mysqli_fetch_array($q)){
 		});
 
 		$('input[type="checkbox"].flat').iCheck({
-          checkboxClass: 'icheckbox_flat-green'
+        	checkboxClass: 'icheckbox_flat-green'
         });
     });
 </script>
