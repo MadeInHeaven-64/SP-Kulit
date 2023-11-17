@@ -6,16 +6,16 @@
         <title>Sistem Pakar Forward Chaining</title>
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         
-	<!-- App css -->
-	<link href="/assets/css/scroll.css" rel="stylesheet" type="text/css"/>
-	<link href="css/themecolor.css" rel="stylesheet" type="text/css"/>  
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" async/>
-	<link href="css/swiper.css" rel="stylesheet" type="text/css"/>
-	<link href="css/animate.css" rel="stylesheet" type="text/css"/>
-	<link href="css/lity.css" rel="stylesheet" type="text/css"/>
-	<link href="css/style.css" rel="stylesheet" type="text/css"/>
-	<link href="css/font-family.css" rel="stylesheet" type="text/css"/>
-	<link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+		<!-- App css -->
+		<link href="/assets/css/scroll.css" rel="stylesheet" type="text/css"/>
+		<link href="css/themecolor.css" rel="stylesheet" type="text/css"/>  
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" async/>
+		<link href="css/swiper.css" rel="stylesheet" type="text/css"/>
+		<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+		<link href="css/lity.css" rel="stylesheet" type="text/css"/>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<link href="css/font-family.css" rel="stylesheet" type="text/css"/>
+		<link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 
@@ -32,7 +32,7 @@
 				<i class="chart"></i>
 			</span>
 			<a href="#" title="Sistem Pakar Forward Chaining" alt="Sistem Pakar Forward Chaining" class="navbar-brand">
-				<img alt="Kincai Media" src="../assets/images/logo.png" height="60px" width="60px">
+				<img alt="Kincai Media" src="../assets/images/Group 60 (1).png" height="60px" width="60px">
 			</a>
 		</div>
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,12 +59,12 @@
 					<div class="col-lg-7 col-md-8">
 						<div class="site-intro-content">
 							<h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s"><i class="fa fa-check-circle" style="color:#336699"></i> Forward Chaining</h1><p/>
-							<h2>Sistem Pakar Metode Forward Chaining Berbasis Web</h2><p/>
+							<h2></h2><p/>
 							<p class="lead wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-							Sistem pakar adalah cabang dari ilmu kecerdasan buatan dan juga bidang ilmu yang muncul bersama perkembangan teknologi dan ilmu komputer. 
+							
 							</p>
 							<p class="lead wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-							Sistem pakar merupakan sistem yang dirancang untuk dapat meniru keahlian seorang pakar di bidangnya untuk memodelkan kemampuan pemecahan masalah.
+							
 							</p>
 							<ul class="list-inline list-unstyled header-links">
 								<li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -83,9 +83,6 @@
 
 <!-- Main -->
 <main class="entry-main">
-
-
-
 				</div>
 			</div>
 		</div>
@@ -96,19 +93,7 @@
 <!-- Scroll -->
 <div class="scrollToTop appsLand-btn appsLand-btn-gradient"><span><i class="fa fa-angle-up"></i></span></div>
 
-<!-- Footer -->
-<footer class="apps-footer">
-	<div class="footer-bottom">
-		<div class="container" style="text-align: center; text-transform: capitalize;">
-			<div class="col-md-6">
-				Copyright ©2020  <font color="#336699">LuluChang</font></a>
-			</div>
-			<div class="col-md-6">
-				All rights reserved
-			</div>
-		</div>
-	</div>
-</footer>
+
 
 <!-- start the script -->
 <script src="js/jquery-2.2.4.min.js"></script>

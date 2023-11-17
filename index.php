@@ -9,7 +9,7 @@ if (isset($_SESSION['LOG_USER'])) {
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Sistem Pakar FC V2</title>
+        <title>Sistem Pakar Covid-19</title>
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@ if (isset($_SESSION['LOG_USER'])) {
         <link href="assets/css/AdminLTE.min.css" rel="stylesheet">
         <link href="assets/css/skins/_all-skins.min.css" rel="stylesheet">
         <link href="assets/css/custom.css" rel="stylesheet">
-        <link href="assets/images/logo.png" type="image/x-icon" rel="shortcut icon">
+        <link href="assets/images/Group 60 (1).png" type="image/x-icon" rel="shortcut icon">
         <link rel="stylesheet" href="assets/iCheck/flat/_all.css">
 
         <script src="assets/js/jQuery-2.1.4.min.js"></script>
