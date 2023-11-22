@@ -17,115 +17,77 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/font-family.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+
+    <link rel="shortcut icon" href="../assets/images/Group 60 (1).png" type="image/x-icon">
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="./css/styles2.css" rel="stylesheet" />
 </head>
 
-<body>
-
-    <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="5"
-        class="scrollspy-example without_bg_images">
-
-        <!-- navbar -->
-        <nav class="navbar navbar-default navbar-fixed-top appsLand-navbar navBar__style-2">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <span class="menu-toggle">
-                        <i class="chart"></i>
-                        <i class="chart"></i>
-                        <i class="chart"></i>
-                    </span>
-                    <a href="#" title="Sistem Pakar Forward Chaining" alt="Sistem Pakar Forward Chaining"
-                        class="navbar-brand">
-                        <img alt="Kincai Media" src="../assets/images/Group 60 (1).png" height="60px" width="60px">
-                    </a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="app-links" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right appsLand-links">
-                        <li class="visible-xs-block text-center mobile-size-logo">
-                            <a href="#">
-                                <img alt="Kincai Media" src="../assets/images/logo.png" height="60px" width="60px">
-                            </a>
-                        </li>
-                        <li><a href="#kmpanel">Tentang</a></li>
-
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-
-        <!-- Header -->
-        <header class="active-navbar appsLand-header" id="kmpanel">
-            <div class="app-overlay">
-                <div class="header-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-7 col-md-8">
-                                <div class="site-intro-content">
-                                    <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s"><i
-                                        class="fa fa-check-circle" style="color:#336699"></i> Forward Chaining</h1>
-                                    <p />
-                                    <h2>
-                                    </h2>
-                                    <p />
-                                    <p class="lead wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                                        covid-19
-                                    </p>
-                                    <p class="lead wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                                        covid-19
-                                    </p>
-                                    <ul class="list-inline list-unstyled header-links">
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                                            <a href="../index.php" title="Login Akun"
-                                                alt="Login Akun Sistem Pakar Forward Chaining"
-                                                class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
-                                                <span><i class="fa fa-sign-in"></i> Masuk</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <p class="lead wow fadeInUp pt-5" data-wow-duration="1s" data-wow-delay="0.25s">
-                                        covid-19
-                                    </p>
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <p class="card-text">Some quick example text to build on the card title and
-                                                make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </div>
+<body class="d-flex flex-column h-100 bg-dark py-6 container-fluid">
+    <main class="flex-shrink-0 ">
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <div class="my-5 text-center text-xl-start">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Sistem Pakar SOC Forward Chaining</h1>
+                            <p class="lead fw-normal text-white-50 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam neque laborum molestiae molestias repellat tenetur, sapiente, facere consequatur ea doloremque eos natus? Id similique doloremque nam? Sed, nobis fugit!</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="../index.php">Masuk</a>
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5"
+                            src="./images/fusion-medical-animation-EAgGqOiDDMg-unsplash.jpg" alt="..." /></div>
                 </div>
+            </div>
         </header>
-
-        <!-- Main -->
-        <main class="entry-main">
+    </main>
+    <!-- Features section-->
+    <section class="py-5 bg-white" id="features">
+        <div class="container px-5 my-5">
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h2 class="fw-bolder mb-0">Langkah Langkah Mengecek Covid-19 Menggunakan Sistem Pakar</h2>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row gx-5 row-cols-1 row-cols-md-2">
+                        <div class="col mb-5 h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                    class="bi bi-collection"></i></div>
+                            <h2 class="h5">Login</h2>
+                            <p class="mb-0">login ke dalam sistem pakar</p>
+                        </div>
+                        <div class="col mb-5 h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                    class="bi bi-building"></i></div>
+                            <h2 class="h5">Cek Gejala</h2>
+                            <p class="mb-0">pilih gejala yang dirasakan</p>
+                        </div>
+                        <div class="col mb-5 mb-md-0 h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                    class="bi bi-toggles2"></i></div>
+                            <h2 class="h5">Hasil</h2>
+                            <p class="mb-0">hasil pemeriksaan apakah terindikasi covid-19</p>
+                        </div>
+                        <div class="col h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                    class="bi bi-toggles2"></i></div>
+                            <h2 class="h5">Solusi</h2>
+                            <p class="mb-0">solusi yang diberikan tentang penyakit terkait</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            </div>
-            </div>
-            </section>
-
-        </main>
-
-        <!-- Scroll -->
-        <div class="scrollToTop appsLand-btn appsLand-btn-gradient"><span><i class="fa fa-angle-up"></i></span></div>
-
-
-
-        <!-- start the script -->
-        <script src="js/jquery-2.2.4.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/swiper.jquery.min.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/jquery.countTo.min.js"></script>
-        <script src="js/lity.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/jquery.ajaxchimp.langs.min.js"></script>
-        <script src="js/ajax.js"></script>
-
-    </body>
+        </div>
+    </section>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="./js/scripts.js"></script>
+</body>
 
 </html>
